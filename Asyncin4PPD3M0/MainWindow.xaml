@@ -1,0 +1,21 @@
+﻿<Window x:Class="Asyncin4PPD3M0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Asyncin4PPD3M0"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="568.069" Width="800">
+    <Grid>
+        <StackPanel Margin="10,10,10,20">
+            <Button Content="SyncDownloadBtn" Height="62" Margin="0,0,0,20" Name ="SyncBtn" Click="SyncBtn_Click"/>
+            <Button Content="AsyncDownloadBtn" Height="62" Margin="0,0,0,20" Name="AsyncBtn" Click="AsyncBtn_Click"/>
+            <Button Content="ParallelAsyncDownloadBtn" Height="62" Margin="0,0,0,20" Name="ParallelAsyncBtn" Click="ParallelAsyncBtn_Click"/>
+            <ProgressBar Name="ProgressBar" Height="41" Margin="0,0,0,20"/>
+            <TextBox Height="139" TextWrapping="Wrap" Text="" Name="LogTxtBox"/>
+            
+
+        </StackPanel>
+
+    </Grid>
+</Window>
